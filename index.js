@@ -12,18 +12,17 @@ return "There is nobody waiting to be served!"
 return `Currently serving ${array}.`
 }
 
-/*function currentLine(lineRightNow, katzDeliLine) {
+function currentLine(katzDeliLine) {
 var lineRightNow = []
 if (katzDeliLine.length === 0)
   return "The line is currently empty."
 for (let i =0; i < katzDeliLine.length; i++ ) {
-   lineRightNow.push(katzDeliLine)
+   lineRightNow.push([i+1]+`. ` +katzDeliLine[i])}
 return lineRightNow
 }
-}
-*/
 
-var line = [];
+
+/*var line = [];
 
 function currentLine(katzDeliLine) {
   for (let i = 0; i < katzDeliLine.length; i++) {
@@ -34,3 +33,4 @@ function currentLine(katzDeliLine) {
    } else
   return(`The line is currently:` + line);
 }
+*/
