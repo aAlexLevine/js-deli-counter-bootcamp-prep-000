@@ -21,5 +21,3 @@ for (let i =0; i < katzDeliLine.length; i++ ) {
 return LineRightNow
 }
 }
-
-
