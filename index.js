@@ -19,4 +19,3 @@ for (var i =0; i < katzDeliLine.length; i++ ) {
   return `The line is currently:` katzDeliLine.push(` ${i+1}. ${katzDeliLine[i]}`)
 }
 
-}
