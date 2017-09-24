@@ -12,7 +12,7 @@ return "There is nobody waiting to be served!"
 return `Currently serving ${array}.`
 }
 
-function currentLine(katzDeliLine, name) {
+function currentLine(katzDeliLine, LineRightNow) {
 var LineRightNow = []
 if (katzDeliLine.length === 0)
   return "The line is currently empty."
