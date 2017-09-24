@@ -17,7 +17,7 @@ var lineRightNow = []
 if (katzDeliLine.length === 0)
   return "The line is currently empty."
 for (let i =0; i < katzDeliLine.length; i++ ) {
-   lineRightNow.push([i+1]+`. ` +katzDeliLine[i])}
+   lineRightNow.push(`The line is currently `+[i+1]+`. ` +katzDeliLine[i])}
 return lineRightNow
 }
 
