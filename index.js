@@ -20,4 +20,5 @@ for (let i =0; i < katzDeliLine.length; i++ ) {
    LineRightNow.push(`The line is currently: ` + [i+1]`.` + katzDeliLine[i]);
 return LineRightNow
 }
+
 }
